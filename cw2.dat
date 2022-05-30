@@ -1,0 +1,15 @@
+## Math6120 - Nonlinear Optimization
+## Coursework 2 - AMPL Model - Data File
+## Emma Tarmey, 2940 4045
+
+## This file specifies all parameters required by the corresponding cw2 model
+
+param lsfo_base_price := 150;
+param hsfo_base_price := 100;
+
+param lsfo_sulphur_upper_bound := 1.5;
+param hsfo_sulphur_upper_bound := 3.5;
+
+
+
+

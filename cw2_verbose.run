@@ -1,0 +1,63 @@
+reset;
+option solver conopt;
+option display_1col 1;
+model cw2.mod;
+data  cw2.dat;
+
+print "";
+print "***** Math6120 - Nonlinear Optimization *****";
+print "***** Coursework 2 - AMPL Model *****";
+print "***** Emma Tarmey, 2940 4045 *****";
+print "";
+
+solve;
+print "";
+print "***** Optimal Solution: *****";
+print "";
+
+print "";
+print "***** Starting Products: *****";
+print "";
+display hs1;
+display hs2;
+display ls1;
+display ls2;
+
+print "";
+print "***** Intermediate Products: *****";
+print "";
+display hs1_sr;
+display hs1_cr;
+display hs1_hgo;
+display hs1_vgo;
+
+display hs2_sr;
+display hs2_cr;
+display hs2_hgo;
+display hs2_vgo;
+
+display ls1_sr;
+display ls1_cr;
+display ls1_hgo;
+display ls1_vgo;
+
+display ls2_sr;
+display ls2_cr;
+display ls2_hgo;
+display ls2_vgo;
+
+print "";
+print "***** Tank Products: *****";
+print "";
+display tank_one;
+display tank_two;
+
+print "";
+print "***** Final Products: *****";
+print "";
+display t;
+display lsfo;
+display hsfo;
+display total_sales_volume;
+
+

@@ -1,0 +1,23 @@
+reset;
+option solver knitro;
+option display_1col = 1;
+model cw2.mod;
+data  cw2.dat;
+
+print "";
+print "***** Math6120 - Nonlinear Optimization *****";
+print "***** Coursework 2 - AMPL Model *****";
+print "***** Emma Tarmey, 2940 4045 *****";
+print "";
+
+solve;
+print "";
+print "***** Optimal Solution: *****";
+print "";
+display t;
+display lsfo;
+display hsfo;
+display total_sales_volume;
+
+
+
