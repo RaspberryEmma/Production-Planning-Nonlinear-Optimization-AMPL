@@ -1,5 +1,5 @@
 # Production-Planning-Nonlinear-Optimization-AMPL
-A nonlinear optimization project concerned with maximising revenues for a production plan, subject to nonlinear constraints, for a hypothetical oil refinery seeking to optimise the fuel oils.
+A nonlinear optimization project concerned with maximising revenues for a production plan, subject to nonlinear constraints, for a hypothetical oil refinery seeking to optimise final revenue.
 
 The production is carried out across 3 production stages:
  - distillation
